@@ -1,39 +1,94 @@
 <!DOCTYPE html>
-<html lang="pt_br">
+<html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula 07 - Layout Semantico</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula 07 - Layout Semantico</title>
+  <link rel="stylesheet" href="styles.css">
+</head> 
 
 <body>
-    <header id="main-header">
-        <h1>Artigos Extraordinarios</h1>
-    </header>
-    <div id="content">
+  <header id="main-header">
+    <span>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+        <path
+          d="M480-120 80-600l120-240h560l120 240-400 480Zm-95-520h190l-60-120h-70l-60 120Zm55 347v-267H218l222 267Zm80 0 222-267H520v267Zm144-347h106l-60-120H604l60 120Zm-474 0h106l60-120H250l-60 120Z" />
+      </svg>
+    </span>
+    <h1>Artigos Extraordinários</h1>
+  </header>
+  <div id="content">
     <nav>
-        <ul>
-            <li>Home</li>
-            <li></li>
-        </ul>
+      <ul>
+        <li>Home</li>
+        <li>Artigos</li>
+        <li>Contato</li>
+        <li>Sobre</li>
+      </ul>
     </nav>
-    <div id="articles"></div>
-      <article>
-        <figure>
+    <div id="articles">
+      <article class="article-item">
+        <div class="image">
+          <figure>
             <figcaption></figcaption>
-        </figure>
+          </figure>
+        </div>
         <div class="article-detail">
-        <header>artigo X</header>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, accusantium maiores maxime accusamus aut atque voluptates cumque mollitia eveniet, dolore doloremque, veniam tenetur ad explicabo vero est? Laboriosam, assumenda natus!
-
-        </p>
-        <footer>Curta, comente e compartilhe</footer>
-    </div>
+          <header>Artigo X</header>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil molestias natus expedita ducimus.
+            Exercitationem veritatis omnis commodi eos enim, laboriosam aspernatur nam officia, odio excepturi
+            dignissimos voluptatibus sapiente. Dignissimos, vitae!</p>
+          <footer>Curta, comente e compartilhe</footer>
+        </div>
       </article>
-    <footer id="main-footer">
-        <span>copyright 2023 MURILO</span>
-    </footer>
+      <article class="article-item">
+        <div class="image">
+          <figure>
+            <figcaption></figcaption>
+          </figure>
+        </div>
+        <div class="article-detail">
+          <header>Artigo X</header>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil molestias natus expedita ducimus.
+            Exercitationem veritatis omnis commodi eos enim, laboriosam aspernatur nam officia, odio excepturi
+            dignissimos voluptatibus sapiente. Dignissimos, vitae!</p>
+          <footer>Curta, comente e compartilhe</footer>
+        </div>
+      </article>
+      <article class="article-item">
+        <div class="image">
+          <figure>
+            <figcaption></figcaption>
+          </figure>
+        </div>
+        <div class="article-detail">
+          <header>Artigo X</header>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil molestias natus expedita ducimus.
+            Exercitationem veritatis omnis commodi eos enim, laboriosam aspernatur nam officia, odio excepturi
+            dignissimos voluptatibus sapiente. Dignissimos, vitae!</p>
+          <footer>Curta, comente e compartilhe</footer>
+        </div>
+      </article>
+      <article class="article-item">
+        <div class="image">
+          <figure>
+            <figcaption></figcaption>
+          </figure>
+        </div>
+        <div class="article-detail">
+          <header>Artigo X</header>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil molestias natus expedita ducimus.
+            Exercitationem veritatis omnis commodi eos enim, laboriosam aspernatur nam officia, odio excepturi
+            dignissimos voluptatibus sapiente. Dignissimos, vitae!</p>
+          <footer>Curta, comente e compartilhe</footer>
+        </div>
+      </article>
+    </div>
+  </div>
+  <footer id="main-footer">
+    <span>Copyright 2023 - Cezar Augusto Mezzalira</span>
+  </footer>
 </body>
 
 </html>
