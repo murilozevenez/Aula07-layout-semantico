@@ -225,3 +225,15 @@ body {
         
     }
 }
+
+.main{
+  margin-right: 10px;
+  background: #ededed;
+  width: 85%;
+  height: 700px;
+  padding-left: 20px;
+  border-radius: 8px;
+  border: 1px solid #3d3d3d;
+
+
+}
